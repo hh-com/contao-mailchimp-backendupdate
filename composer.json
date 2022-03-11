@@ -1,0 +1,22 @@
+{
+    "name":"hh-com/contao-mailchimp-backendupdate",
+    "description":"Contao 4 bundle to update mailchimp interests in backend (require https://github.com/1up-lab/contao-mailchimp)",
+    "type":"contao-bundle",
+    "license":"LGPL-3.0-or-later",
+    "require":{
+        "php": "^7.2 || ^8.0",
+        "contao/core-bundle": "^4.12 || ^5.0",
+        "oneup/contao-mailchimp": "^4"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+			"Hhcom\\ContaoMailchimpBackendUpdate\\": "src/"
+        }
+    },
+    "extra": {
+		"contao-manager-plugin": "Hhcom\\ContaoMailchimpBackendUpdate\\ContaoManager\\Plugin"
+    }
+}
