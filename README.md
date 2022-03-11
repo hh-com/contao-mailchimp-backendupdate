@@ -3,7 +3,7 @@
 Requires https://github.com/1up-lab/contao-mailchimp
 
 
-ACHTUNG! unterstützt derzeit nur EINE Mailchimp-Liste!!
+ACHTUNG! unterstützt derzeit nur EINE Mailchimp-Liste!!!!
 
 ## Install
 
